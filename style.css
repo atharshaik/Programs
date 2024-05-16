@@ -65,3 +65,47 @@ a:hover{
     border: 2px black solid;
     box-sizing: border-box;
 }
+
+.main-header {
+    background: orange;
+    color: aliceblue;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#main-footer {
+    background: orange;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+#navbar{
+    background-color: black;
+    color: aliceblue;
+    
+}
+#navbar ul{
+    list-style: none;
+    padding: 0px;
+}
+#navbar li{
+    text-decoration: none;
+    display: inline;
+    padding-right: 20px;
+    font-size: 15px;
+}
+#showcase{
+    background-image: url('images/bg-image.jpg');
+    text-shadow: whitesmoke;
+    height: 250px;
+    text-align: center;
+    background-position: center center;
+}
+#showcase p{
+    color: aliceblue;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
